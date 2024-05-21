@@ -31,3 +31,5 @@ Route::middleware([
 Route::get('/home',[AdminController::class,'index'])->name('home');
 
 Route::get('/create_chambre',[AdminController::class,'create_chambre'])->name('create_chambre');
+
+Route::post('/ajout_chambre',[AdminController::class,'ajout_chambre'])->name('ajout_chambre');
