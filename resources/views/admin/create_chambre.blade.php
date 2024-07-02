@@ -46,8 +46,8 @@
                         <div class="div_deg">
                             <label>Statut de chambre</label>
                             <select name="Statutchambre" >
-                                <option selected value="1">Oui</option>
-                                <option value="0">Non</option>
+                                <option selected value="1">Disponible</option>
+                                <option value="0">Occupé</option>
 
                             </select>
                         </div>
